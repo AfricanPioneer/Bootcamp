@@ -7,6 +7,6 @@ def fibonacci(n):
      b = temp + b
     return a
 
-
-for c in range(0, 5):
+num = input("Please enter a number to get its fibonacci series ")
+for c in range(0, num):
     print(fibonacci(c))
